@@ -3,3 +3,5 @@
 ## Planet Argon Bicycles
 
 This is the example site for Planet Argon's Modern Web Developer Workshop. Unfortunately, we don't actually sell bikes. Sad, right?
+
+We've used Jekyll to build the blog.
