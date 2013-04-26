@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+  </head>
+  
+  <body>
+    
+    <nav>
+      <div class="container">
+        <a href="index.html" class="pull-left logo"><span>Planet Argon Bicycles</span></a>
+        <ul class="nav nav-pills pull-right">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Bikes</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    {{ content }}
+    
+    <footer>
+      <div class="container">
+        <div class="row-fluid">
+          <div class="span4">
+            <h3>Contact</h3>
+            <address>
+              2240 N Interstate Ave.<br />
+              Suite 240<br />
+              Portland, OR 97227 USA<br />
+              503-847-9214
+            </address>
+          </div>
+          <div class="span4">
+            <h3>Recent Blog Posts</h3>
+            <h4><a href="#">The Humble Banana</a></h4>
+            <p class="muted"><em>3 days ago</em></p>
+            <p>The humble banana is our favorite fruit. It is difficult to peel one, but the payoff is immense. IMMENSE.</p>
+            <h4><a href="#">String Cheese Incident</a></h4>
+            <p class="muted"><em>7 days ago</em></p>
+            <p>Everybody's favorite band is the String Cheese Incident, but why? Let's delve a little deeper and see what kinds of conclusions we can draw.</p>
+          </div>
+          <div class="span4">
+            <h3>Join our Mailing List</h3>
+            <form>
+              <label for="name">Name</label>
+              <input type="text" id="name" class="input-block-level" placeholder="Lex Luthor" />
+              <label for="email">Email address</label>
+              <input type="text" id="email" class="input-block-level" placeholder="lexluthor@email.com" />
+              <p class="text-center"><button type="submit" class="btn btn-large">Submit</button></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
