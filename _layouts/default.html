@@ -12,11 +12,11 @@
     
     <nav>
       <div class="container">
-        <a href="index.html" class="pull-left logo"><span>Planet Argon Bicycles</span></a>
+        <a href="/index.html" class="pull-left logo"><span>Planet Argon Bicycles</span></a>
         <ul class="nav nav-pills pull-right">
           <li><a href="#">About</a></li>
           <li><a href="#">Bikes</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="/blog.html">Blog</a></li>
         </ul>
       </div>
     </nav>
@@ -37,12 +37,11 @@
           </div>
           <div class="span4">
             <h3>Recent Blog Posts</h3>
-            <h4><a href="#">The Humble Banana</a></h4>
-            <p class="muted"><em>3 days ago</em></p>
-            <p>The humble banana is our favorite fruit. It is difficult to peel one, but the payoff is immense. IMMENSE.</p>
-            <h4><a href="#">String Cheese Incident</a></h4>
-            <p class="muted"><em>7 days ago</em></p>
-            <p>Everybody's favorite band is the String Cheese Incident, but why? Let's delve a little deeper and see what kinds of conclusions we can draw.</p>
+            {% for post in site.posts %}
+              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+              <p class="muted"><em>{{ post.date | date_to_string }}</em></p>
+              <p>{{ post.teaser }}</p>
+            {% endfor %}
           </div>
           <div class="span4">
             <h3>Join our Mailing List</h3>

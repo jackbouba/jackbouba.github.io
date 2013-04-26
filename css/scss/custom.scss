@@ -6,6 +6,7 @@
 // GLOBAL ============================================================================ //
 
 body {
+  background: $lt-green url('../img/noise.png');
   color: #FFF;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -219,5 +220,13 @@ footer {
   h3 {
     font-size: 18px;
     line-height: 24px;
+  }
+}
+
+// BLOG ============================================================================== //
+.section-blog {
+  padding-top: 70px;
+  .container {
+    max-width: 900px;
   }
 }
