@@ -1,5 +1,6 @@
 ---
 title: Planet Argon Bicycles - since 1906
+headline: Never buy gas again
 ---
 <!DOCTYPE html>
 <html>
@@ -28,7 +29,7 @@ title: Planet Argon Bicycles - since 1906
       <div class="container">
         <div class="row-fluid">
           <div class="span6 offset4">
-            <h1>Stop worrying about gas prices.</h1>
+            <h1>{% if page.headline %} {{page.headline}} {% else %}Stop worrying about gas prices{% end if %}.</h1>
             <p class="text-center"><a class="btn btn-large">Find a Bicycle</a></p>
           </div>
         </div>
