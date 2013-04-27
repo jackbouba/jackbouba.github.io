@@ -5499,6 +5499,10 @@ a {
     color: #FFF; }
 
 .banner {
+  -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
   color: #FFF;
   margin: 0 auto 20px;
   max-width: 300px;
@@ -5508,6 +5512,10 @@ a {
   width: 75%;
   height: 40px; }
   .banner:before, .banner:after {
+    -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
     content: "";
     border-style: solid;
     position: absolute;
@@ -5757,6 +5765,7 @@ footer .btn {
     font-size: 18px;
     line-height: 24px; } }
 .section-blog {
+  color: #222;
   padding-top: 70px; }
   .section-blog .container {
     max-width: 900px; }
