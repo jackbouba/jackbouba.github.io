@@ -5499,10 +5499,6 @@ a {
     color: #FFF; }
 
 .banner {
-  -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
-  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
   color: #FFF;
   margin: 0 auto 20px;
   max-width: 300px;
@@ -5512,10 +5508,6 @@ a {
   width: 75%;
   height: 40px; }
   .banner:before, .banner:after {
-    -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
-    -o-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
-    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
     content: "";
     border-style: solid;
     position: absolute;
@@ -5685,7 +5677,16 @@ nav, footer {
       border-top: 4px solid #4b584c;
       border-bottom: 0; }
   .section-about .banner {
+    -webkit-box-shadow: 0 4px 0 #404a40;
+    -moz-box-shadow: 0 4px 0 #404a40;
+    -o-box-shadow: 0 4px 0 #404a40;
+    box-shadow: 0 4px 0 #404a40;
     background-color: #576658; }
+    .section-about .banner:before, .section-about .banner:after {
+      -webkit-box-shadow: 0 4px 0 #404a40;
+      -moz-box-shadow: 0 4px 0 #404a40;
+      -o-box-shadow: 0 4px 0 #404a40;
+      box-shadow: 0 4px 0 #404a40; }
     .section-about .banner:before {
       border-color: #576658 #576658 #576658 transparent; }
     .section-about .banner:after {
@@ -5716,7 +5717,16 @@ nav, footer {
       border-top: 4px solid #a6636c;
       border-bottom: 0; }
   .section-bikes .banner {
+    -webkit-box-shadow: 0 4px 0 #985760;
+    -moz-box-shadow: 0 4px 0 #985760;
+    -o-box-shadow: 0 4px 0 #985760;
+    box-shadow: 0 4px 0 #985760;
     background-color: #af737b; }
+    .section-bikes .banner:before, .section-bikes .banner:after {
+      -webkit-box-shadow: 0 4px 0 #985760;
+      -moz-box-shadow: 0 4px 0 #985760;
+      -o-box-shadow: 0 4px 0 #985760;
+      box-shadow: 0 4px 0 #985760; }
     .section-bikes .banner:before {
       border-color: #af737b #af737b #af737b transparent; }
     .section-bikes .banner:after {

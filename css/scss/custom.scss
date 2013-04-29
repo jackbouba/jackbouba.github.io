@@ -21,7 +21,6 @@ a {
   }
 }
 .banner {
-  @include prefix(box-shadow, 0 4px 0 rgba(0,0,0,.5));
   color: #FFF;
   margin: 0 auto 20px;
   max-width: 300px;
@@ -31,7 +30,6 @@ a {
   width: 75%;
   height: 40px;
   &:before, &:after {
-    @include prefix(box-shadow, 0 4px 0 rgba(0,0,0,.5));
     content: "";
     border-style: solid;
     position: absolute;
@@ -163,7 +161,11 @@ nav, footer {
     margin-top: 20px;
   }
   .banner {
+    @include prefix(box-shadow, 0 4px 0 darken($green, 10%));
     background-color: $green;
+    &:before, &:after {
+      @include prefix(box-shadow, 0 4px 0 darken($green, 10%));
+    }
     &:before {
       border-color: $green $green $green transparent;
     }
@@ -181,7 +183,11 @@ nav, footer {
     @include button($mauve);
   }
   .banner {
+     @include prefix(box-shadow, 0 4px 0 darken($mauve, 10%));
     background-color: $mauve;
+    &:before, &:after {
+      @include prefix(box-shadow, 0 4px 0 darken($mauve, 10%));
+    }
     &:before {
       border-color: $mauve $mauve $mauve transparent;
     }
