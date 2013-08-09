@@ -4,11 +4,10 @@ teaser: "The humble banana is our favorite fruit. It is difficult to peel one, b
 published: true
 ---
 
-
 # The humble banana
 {{ page.date | date_to_string }}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit veritatis perspiciatis dolorum perferendis quo dicta vitae saepe officia aperiam ipsa quaerat velit sapiente non sunt commodi eos sit magnam doloremque voluptatibus illum. Nobis harum excepturi voluptatibus ad quam asperiores suscipit ipsum magni culpa dolores unde sunt assumenda quod doloremque possimus.
+First sentence added with Prose. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit veritatis perspiciatis dolorum perferendis quo dicta vitae saepe officia aperiam ipsa quaerat velit sapiente non sunt commodi eos sit magnam doloremque voluptatibus illum. Nobis harum excepturi voluptatibus ad quam asperiores suscipit ipsum magni culpa dolores unde sunt assumenda quod doloremque possimus.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam repellendus expedita quos saepe labore doloremque quae hic maxime culpa officiis. Architecto voluptatum nisi fugiat debitis incidunt ea ab aperiam illo obcaecati accusantium. Ullam provident soluta consectetur a iure dolorem sapiente.
 
