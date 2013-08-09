@@ -1,7 +1,9 @@
 ---
 layout: blog
-teaser: The humble banana is our favorite fruit. It is difficult to peel one, but the payoff is immense. IMMENSE.
+teaser: "The humble banana is our favorite fruit. It is difficult to peel one, but the payoff is immense. IMMENSE."
+published: true
 ---
+
 
 # The humble banana
 {{ page.date | date_to_string }}
